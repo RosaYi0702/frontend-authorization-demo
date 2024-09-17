@@ -11,8 +11,8 @@ function NavBar() {
 
   function signOut() {
     removeToken();
-    navigate("/login");
     setIsLoggedIn(false);
+    navigate("/login");
   }
   return (
     <div className="navbar">

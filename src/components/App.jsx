@@ -74,7 +74,7 @@ function App() {
       .catch(console.error);
   };
   return (
-    <AppContext.Provider value={{ isLoggedIn }}>
+    <AppContext.Provider value={{ isLoggedIn, setIsLoggedIn }}>
       <Routes>
         <Route
           path="/ducks"
